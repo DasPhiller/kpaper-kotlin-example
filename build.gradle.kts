@@ -1,11 +1,11 @@
 plugins {
     java
-    kotlin("jvm") version "1.8.22"
-    id("io.papermc.paperweight.userdev") version "1.5.5"
-    id("xyz.jpenilla.run-paper") version "2.1.0"
+    kotlin("jvm") version "1.9.10"
+    id("io.papermc.paperweight.userdev") version "1.5.9"
+    id("xyz.jpenilla.run-paper") version "1.1.0"
 }
 
-group = "org.example"
+group = "de.dasphiller"
 version = "0.1.0"
 
 repositories {
@@ -13,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.19.4-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.20.1-R0.1-SNAPSHOT")
 
-    implementation("net.axay:kspigot:1.19.2")
+    implementation("de.miraculixx:kpaper:1.1.0")
 }
 
 val javaVersion = 17
